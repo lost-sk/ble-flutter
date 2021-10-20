@@ -1,26 +1,6 @@
-# flutter_ducafecat_news_getx
+# flutter_getx
 
-新闻客户端 Getx 版本 - 项目模板
-
-> 你以为看到了结果，其实一切只是刚刚开始！
-
-![](README/2021-07-24-14-47-42.png)
-
-## B 站视频
-
-https://space.bilibili.com/404904528/channel/detail?cid=177514&ctype=0
-
-## 微信群 ducafecat
-
-## 前言
-
-我的这个代码主要不是为了完成业务，大家也看到了并没有很多业务。
-
-这个项目是一个模板，有的同学可能要问，模板干啥的么~
-
-## 如何提高代码质量+效率？
-
-![](README/architecture.png)
+Getx 项目模板
 
 ### 1. 规范
 
@@ -83,8 +63,6 @@ api@ducafecat.tech
 ## 目录结构
 
 ![](README/catalog.png)
-
-还是延续我第一版的目录结构，虽然 getx-cli 的目录也很简洁，但是我这个也没大问题。
 
 ### common 通用组件
 
