@@ -93,7 +93,7 @@ class ApplicationController extends GetxController {
     // handleIncomingLinks();
 
     // 准备一些静态数据
-    tabTitles = ['Welcome', 'Cagegory', 'Bookmarks', 'Account'];
+    tabTitles = ['Welcome', 'Cagegory', 'setwifi', 'Account'];
     bottomTabs = <BottomNavigationBarItem>[
       new BottomNavigationBarItem(
         icon: Icon(

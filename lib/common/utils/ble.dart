@@ -1,6 +1,16 @@
 import 'dart:async';
 import 'package:flutter_reactive_ble/flutter_reactive_ble.dart';
 
+final Map<String, Uuid> BleUuid = {
+  "uuid_service": Uuid.parse('0922'),
+  "uuid_wifiSet_notify": Uuid.parse('fad8'),
+  "uuid_wifiSet_write": Uuid.parse('fad7'),
+  "uuid_SN_notify": Uuid.parse('fae8'),
+  "uuid_SN_write": Uuid.parse('fae7'),
+  "uuid_wifiState_notify": Uuid.parse('faf8'),
+  "uuid_wifiState_write": Uuid.parse('faf7'),
+};
+
 abstract class ReactiveState<T> {
   Stream<T> get state;
 }

@@ -88,7 +88,7 @@ dependencies:
   # 通过 scheme 打开APP 获取 参数
   uni_links: ^0.5.1
   # 蓝牙
-  flutter_reactive_ble: ^4.0.1
+  flutter_reactive_ble: ^5.0.0
 
 dev_dependencies:
   flutter_test:
