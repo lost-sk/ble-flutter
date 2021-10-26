@@ -57,6 +57,9 @@ class AppPages {
       name: AppRoutes.SetWifi,
       page: () => SetWifiPage(),
       binding: SetWifiBinding(),
+      middlewares: [
+        RouteAuthMiddleware(priority: 1),
+      ],
     ),
   ];
 

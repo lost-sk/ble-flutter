@@ -1,8 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutter_ducafecat_news_getx">
-    <uses-permission android:name="android.permission.BLUETOOTH" />  
-	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />  
-	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> 
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    
    <application
         android:label="BleWifi"
         android:icon="@mipmap/ic_launcher">

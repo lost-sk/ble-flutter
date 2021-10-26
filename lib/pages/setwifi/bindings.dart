@@ -5,6 +5,6 @@ import 'controller.dart';
 class SetWifiBinding implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut<SetWifiController>(() => SetWifiController());
+    Get.lazyPut<ReactiveBleController>(() => ReactiveBleController());
   }
 }

@@ -53,7 +53,7 @@ class SignInController extends GetxController {
     );
     UserStore.to.saveProfile(userProfile);
 
-    Get.offAndToNamed(AppRoutes.Application);
+    Get.offAndToNamed(AppRoutes.SetWifi);
   }
 
   @override

@@ -87,6 +87,7 @@ class ApplicationController extends GetxController {
 
   @override
   void onInit() {
+    print('application onInit');
     super.onInit();
 
     // handleInitialUri();
